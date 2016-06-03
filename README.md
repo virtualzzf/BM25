@@ -12,3 +12,13 @@ How To Run
 ----------
 
 To run, simply run `$ python main.py` in the src folder. 
+
+更新说明
+----------
+对原版本稍作修改：
+1.原版本未考虑一个单词在查询（query）中出现的频次
+2.将文集（corpus）格式改为，一行即为一篇文档，文档号为行号（从0开始）
+
+使用说明
+----------
+查询在queries文档中，文档在corpus文档中，最终生成一个结果文档result，格式为查询号、排名、文档号和得分
